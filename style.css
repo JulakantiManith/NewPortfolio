@@ -5,6 +5,61 @@
     color: black;
 }
 
+.fnt{
+    font-weight: 600;
+}
+
+#about {
+    background-color: #2c2c2c; /* Dark background */
+    color: #f5f5f5; /* Lighter text color */
+    padding: 50px 0; /* Vertical padding */
+    
+}
+
+#about .container {
+    max-width: 1500px; /* Maximum width for the container */
+    margin: auto; /* Center the container */
+    padding: 20px; /* Padding around the container */
+    overflow-y:auto;
+    
+    height: 90dvh;
+    
+}
+
+#about .content {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    position: relative; /* Positioning context for absolute elements */
+}
+
+.about-image {
+    width: 300px; 
+    height: auto; 
+    margin-right: 20px; 
+    filter: saturate(0.5); 
+}
+
+.text-content {
+    flex: 1; /* Allow text content to take available space */
+    text-align: left; /* Align text to the left */
+}
+
+#about h1 {
+    font-size: 3em; /* Heading size */
+    margin-bottom: 20px; /* Space below heading */
+    font-family: 'Righteous', sans-serif; /* Heading font */
+    color: #E4454A; /* Heading color */
+    text-align: center;
+    margin-left: 15%;
+}
+
+#about p {
+    font-size: 1.2em; /* Paragraph font size */
+    line-height: 1.6; /* Line height for readability */
+    margin-bottom: 20px; /* Space below paragraphs */
+    font-family: 'Open Sans', sans-serif; /* Paragraph font */
+    color: #d1d1d1; /* Paragraph color */
+}
 
 
 .manith{
@@ -213,6 +268,7 @@ header nav a{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
+
 #intro .content .des p{
     margin-top: 1.2em;
     width: 70%;

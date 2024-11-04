@@ -1,4 +1,5 @@
 let intro = document.getElementById('intro');
+let about = document.getElementById('about'); 
 let experience = document.getElementById('experience');
 let skill = document.getElementById('skill');
 let project = document.getElementById('project');
